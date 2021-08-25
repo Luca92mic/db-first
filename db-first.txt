@@ -1,0 +1,10 @@
+Auto
+
+id: 		BIGINT 			primary_key 	AUTO_INCREMENT
+marca:			VARCHAR(50)
+anno:			YEAR 			NOT_NULL
+km:			UNSIGNED MEDIUMINT 	NOT_NULL
+modello:		VARCHAR(100)		NOT_NULL
+targa:			CHAR(7)			NOT_NULL  UNIQUE
+revisione:	DATE
+prezzo:			UNSIGNED INT 		NOT_NULL
